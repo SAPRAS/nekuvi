@@ -11,7 +11,7 @@ default partial alphanumeric_keys xkb_symbols "basic" {
       key <AE03> { [      0x1000969, numbersign                                        ]    };
       key <AE04> { [      0x100096A, dollar                                            ]    };
       key <AE05> { [      0x100096B, percent                                           ]    };
-      key <AE06> { [      0x100096C, asciiciru                                         ]    };
+      key <AE06> { [      0x100096C, asciicircum                                       ]    };
       key <AE07> { [      0x100096D, ampersand                                         ]    };
       key <AE08> { [      0x100096e, asterisk                                          ]    };
       key <AE09> { [      0x100096F, parenleft                                         ]    };
