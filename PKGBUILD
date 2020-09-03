@@ -25,7 +25,7 @@ options=()
 install=
 changelog=
 source=("https://gitlab.com/ayys/nekuvi/-/archive/master/nekuvi-master.tar.gz")
-md5sums=('98d6e1a4407fa4f028c71edd7c0b6630')
+md5sums=('9ccfd29c062c2f25a70eec6fdd64a235')
 noextract=()
 validpgpkeys=()
 
