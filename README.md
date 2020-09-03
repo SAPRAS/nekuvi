@@ -154,7 +154,7 @@ Project Link: [https://github.com/SAPRAS/nekuvi](https://github.com/SAPRAS/nekuv
 * [Sticky Kit](http://leafo.net/sticky-kit)
 * [JVectorMap](http://jvectormap.com)
 * [Font Awesome](https://fontawesome.com)
-
+* [Flat Icons](https://www.flaticon.com/authors/flat-icons)
 
 
 
@@ -174,28 +174,3 @@ Project Link: [https://github.com/SAPRAS/nekuvi](https://github.com/SAPRAS/nekuv
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
-
-
-
-## विस्थापन प्रक्रिया
-```
-	sudo su
-	cp np /usr/share/X11/xkb/symbols/
-	dpkg-reconfigure xkb-data
-```
-
-## सुधारहरु
-
-* Shift + 0 = ण
-* Shift + 1 = !
-* Shift + 2 = @
-* Shift + 3 = #
-* Shift + 4 = $
-* Shift + 5 = %
-* Shift + 6 = ^
-* Shift + 7 = &
-* Shift + 8 = *
-* Shift + 9 = ꣩
-
-* c = च
-* C = छ
