@@ -1,3 +1,3 @@
 install:
-	cp np /usr/share/X11/xkb/symbols/
-	patch /usr/share/X11/xkb/symbols/level3 < level3.patch
+	patch level3 < level3.patch
+	cp np level3 $(DESTDIR)/usr/share/X11/xkb/symbols/ 
