@@ -1,13 +1,13 @@
 // based on a keyboard map from an 'xkb/symbols/dev' file
 
-default partial alphanumeric_keys xkb_symbols "basic" {
-      name[Group1]= "Nepali (Nepal)";
+default partial alphanumeric_keys xkb_symbols "phenotic" {
+      name[Group1]= "Nepali (Phenotic)";
       
       key.type="FOUR_LEVEL";
 
 // `,1,2,3,4,5,6,7,8,9,0,-,=
 
-      key <TLDE> { [      0x100093D, 0x100093C,     grave,     asciitilde                   ]    };
+      key <TLDE> { [      0x100093D, 0x100097D,     grave,     asciitilde                   ]    };
       key <AE01> { [      0x1000967, exclam,        1,         exclam                       ]    };
       key <AE02> { [      0x1000968, at,	    2,         at                           ]    };
       key <AE03> { [      0x1000969, numbersign,    3,         numbersign                   ]    };
@@ -23,7 +23,7 @@ default partial alphanumeric_keys xkb_symbols "basic" {
 
 // q,w,e,r,t,y,u,i,o,p,[,]
 
-      key <AD01> {    [      0x100091F,  0x1000920, q,         Q                            ]    };
+      key <AD01> {    [      0x100091F,  0x1000920, q,         Q, q                            ]    };
       key <AD02> {    [      0x100094C,  0x1000914, w,         W                            ]    };
       key <AD03> {    [      0x1000947,  0x1000948, e,         E                            ]    };
       key <AD04> {    [      0x1000930,  0x1000943, r,         R                            ]    };
@@ -33,8 +33,8 @@ default partial alphanumeric_keys xkb_symbols "basic" {
       key <AD08> {    [      0x100093F,  0x1000940, i,         I                            ]    };
       key <AD09> {    [      0x100094B,  0x1000913, o,         O                            ]    };
       key <AD10> {    [      0x100092A,  0x100092B, p,         P                            ]    };
-      key <AD11> {    [      0x1000907,  0x1000908                                          ]    };
-      key <AD12> {    [      0x100090F,  0x1000910                                          ]    };
+      key <AD11> {    [      0x1000907,  0x1000908, bracketleft, braceleft                  ]    };
+      key <AD12> {    [      0x100090F,  0x1000910, bracketright, braceright                ]    };
 						               
 // a,s,d,f,g,h,j,k,l,;,',Backslash 		               
       key <AC01> {    [      0x100093E,  0x1000906, a,         A                            ]    };
@@ -42,7 +42,7 @@ default partial alphanumeric_keys xkb_symbols "basic" {
       key <AC03> {    [      0x1000926,  0x1000927, d,         D                            ]    };
       key <AC04> {    [      0x1000909,  0x100090A, f,         F                            ]    };
       key <AC05> {    [      0x1000917,  0x1000918, g,         G                            ]    };
-      key <AC06> {    [      0x1000939,  0x1000905, h,         H                            ]    };
+      key <AC06> {    [      0x1000905,  0x1000939, h,         H                            ]    };
       key <AC07> {    [      0x100091C,  0x100091D, j,         J                            ]    };
       key <AC08> {    [      0x1000915,  0x1000916, k,         K                            ]    };
       key <AC09> {    [      0x1000932,  0x1000933, l,         L                            ]    };
@@ -62,6 +62,8 @@ default partial alphanumeric_keys xkb_symbols "basic" {
       key <AB08> {    [      comma,      0x1000919                                          ]    };
       key <AB09> {    [      0x1000964,  0x1000965, 0x1000970                               ]    };
       key <AB10> {    [      0x100094D,  question                                           ]    };
-      
-      include "level3(ralt_switch)"
+
+      include "level3(caps_switch)"
+      include "level3(caps_switch_latch)"
+
 };
