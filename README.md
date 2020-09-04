@@ -170,4 +170,4 @@ Project Link: [https://github.com/SAPRAS/nekuvi](https://github.com/SAPRAS/nekuv
 [issues-url]: https://github.com/SAPRAS/nekuvi/issues
 [license-shield]: https://img.shields.io/github/license/SAPRAS/nekuvi.svg?style=flat-square
 [license-url]: https://github.com/SAPRAS/nekuvi/blob/master/LICENSE.txt
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/layout.png
