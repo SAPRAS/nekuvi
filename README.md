@@ -135,7 +135,7 @@ Distributed under the GPL-3.0 license. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@habusyush](https://twitter.com/habuayush) - email@example.com
+Your Name - [@habusyush](https://twitter.com/habuayush) - ayushjha@pm.me
 
 Project Link: [https://github.com/SAPRAS/nekuvi](https://github.com/SAPRAS/nekuvi)
 
